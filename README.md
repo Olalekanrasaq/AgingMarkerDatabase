@@ -5,13 +5,13 @@ The python version used is Python 3.9. There are two python script written for d
 
 The main program is a class “MarkerDatabase” which contain methods for creating, parsing, loading data into database and querying data from the database created. All SQL DDL statements to create database and INSERT statement for loading the data into the database are all written in python. Also, the SQL query statements are all written and the query is done in python with reference to sqlite3 – DB-API documentation (https://docs.python.org/3/library/sqlite3.html). No external SQL script is written. All modules used for written the program are python inbuilt modules, therefore no external module is used. The modules imported for the program include:
 
-Sqlite3; a python module for working with sqlite database
-Agparse; a module for parsing command line arguments (the –created, –loaddb, etc.)
-Pandas; this module is used for working with dataframe
-Matplotlib; for creating scatterplot generated as output in query 9
-sys; to print python output on a command line.
-re; a python module for writing regex expression.
-Warnings; to suppress all future warnings from the program.
+-Sqlite3; a python module for working with sqlite database
+-Agparse; a module for parsing command line arguments (the –created, –loaddb, etc.)
+-Pandas; this module is used for working with dataframe
+-Matplotlib; for creating scatterplot generated as output in query 9
+-sys; to print python output on a command line.
+-re; a python module for writing regex expression.
+-Warnings; to suppress all future warnings from the program.
 
 An object of the class MarkerDatabase was created and its methods are called including the query database method which take in a SQL query statements and return the results which is then printed on the command line.
 
