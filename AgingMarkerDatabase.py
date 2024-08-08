@@ -5,7 +5,7 @@ import re # for writing regex
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
-import DataParse_2778496 as dp # a module containing functions for parsing data files to be stored in database
+import data_parse as dp # a module containing functions for parsing data files to be stored in database
 import warnings # to suppress future warning from the program
 warnings.filterwarnings('ignore') # setting ignore as a parameter
 
